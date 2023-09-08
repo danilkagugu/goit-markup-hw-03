@@ -6,7 +6,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 h1,
 h2,
@@ -21,6 +21,9 @@ p {
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 img {
@@ -171,7 +174,7 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  clip-path: inset(100%);
   margin: -1px;
 }
 
@@ -181,8 +184,6 @@ img {
 }
 
 .advantages-item {
-  display: flex;
-
   flex-direction: column;
   align-items: flex-start;
   width: calc((100% - 72px) / 4);
@@ -209,6 +210,7 @@ img {
 /* section-team */
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team {
   color: #2e2f42;
@@ -218,19 +220,39 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
   text-align: center;
 }
+
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-member {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-name {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
+  margin-bottom: 8px;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.team-img {
+  margin-bottom: 32px;
+}
+
+.card-content {
+  margin-bottom: 32px;
 }
 
 .skills {
