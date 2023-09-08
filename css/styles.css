@@ -182,10 +182,10 @@ img {
 
 .advantages-item {
   display: flex;
-  width: 264px;
+
   flex-direction: column;
   align-items: flex-start;
-  flex-basis: calc((100%-72px) / 3);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .advantages {
