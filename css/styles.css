@@ -1,3 +1,4 @@
+/* Baze */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -7,8 +8,48 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+} /* END Baze */
+
 /* Header */
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 24px;
+}
+
 .logo {
+  display: inline-flex;
+  align-items: center;
+  padding: 24px 0;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: #4d5ae5;
@@ -24,10 +65,15 @@ body {
 }
 
 .page-nav {
+  display: flex;
+  gap: 76px;
+  flex-grow: 1;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
 .nav-link {
+  display: inline-block;
+  padding: 24px 0;
   color: #2e2f42;
   text-decoration: none;
   line-height: 1.5;
@@ -45,6 +91,12 @@ body {
 .page-address {
   font-style: normal;
 }
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
 .page-address a {
   color: #434455;
   text-decoration: none;
