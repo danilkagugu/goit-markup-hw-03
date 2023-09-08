@@ -325,16 +325,28 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* footer */
+/* END section-portfolio */
+
+/* START footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.logo {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
   color: #f4f4fd;
 }
 .advice {
+  max-width: 264px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* END footer */
