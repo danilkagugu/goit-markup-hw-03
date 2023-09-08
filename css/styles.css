@@ -158,6 +158,10 @@ img {
 
 /* section-advantages */
 
+.advantages-section {
+  padding: 120px 0;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -173,7 +177,7 @@ img {
 
 .advantages-factors {
   display: flex;
-  flex-basis: calc((100%-72px) / 3);
+  gap: 24px;
 }
 
 .advantages-item {
@@ -181,6 +185,7 @@ img {
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
+  flex-basis: calc((100%-72px) / 3);
 }
 
 .advantages {
