@@ -49,11 +49,13 @@ img {
 .nav-menu {
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
+  margin-right: 76px;
   padding: 24px 0;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
@@ -71,7 +73,7 @@ img {
 
 .page-nav {
   display: flex;
-  gap: 76px;
+  gap: 40px;
   flex-grow: 1;
   line-height: 1.5em;
   letter-spacing: 0.02em;
