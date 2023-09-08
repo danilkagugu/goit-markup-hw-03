@@ -37,7 +37,7 @@ img {
   padding-right: 15px;
 } /* END Baze */
 
-/* Header */
+/* START Header */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -120,7 +120,9 @@ img {
   color: #404bbf;
 }
 
-/* Section-hero */
+/* END Header */
+
+/* START Section-hero */
 .section-hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -159,7 +161,9 @@ img {
   background-color: #404bbf;
 }
 
-/* section-advantages */
+/* END Section-hero */
+
+/* START section-advantages */
 
 .advantages-section {
   padding: 120px 0;
@@ -207,7 +211,9 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* section-team */
+/* END section-advantages */
+
+/* START section-team */
 .section-team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -230,6 +236,7 @@ img {
 }
 
 .team-member {
+  border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -242,6 +249,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 8px;
+  align-items: center;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -252,10 +260,11 @@ img {
 }
 
 .card-content {
-  margin-bottom: 32px;
+  padding: 32px 0;
 }
 
 .skills {
+  align-items: center;
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -264,9 +273,12 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* section-portfolio */
+/* END section-team  */
+
+/* START section-portfolio */
 .section-portfolio {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .portfolio {
   color: #2e2f42;
@@ -276,11 +288,25 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
   text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-project {
   color: #2e2f42;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
